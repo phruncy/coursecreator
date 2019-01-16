@@ -1,0 +1,5 @@
+{% extends 'lottery/base.html' %}
+{% block content %} 
+        <p>{{ course_name }}</p>
+        <a href="{% url 'generate_new'}" class="btn"></a>
+{% endblock %}}

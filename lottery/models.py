@@ -1,4 +1,5 @@
 from django.db import models
+import datetime
 
 # Create your models here.
 class Suffix(models.Model):
@@ -23,3 +24,9 @@ class Course(models.Model):
                 return self.name
         name = models.CharField(max_length=300)
 
+""" class Reviews(models.Model):
+        def __str__(self):
+                return self.id
+        submitted = datetime.now()
+
+ """

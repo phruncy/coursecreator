@@ -1,5 +1,9 @@
 {% extends 'lottery/base.html' %}
 {% block content %} 
-        <p>{{ course_name }}</p>
-        <a href="{% url 'generate_new'}" class="btn"></a>
+        <div>
+                        <h1 class="prominent">Dein Studiengang mit Zukunft:</h1>
+                        <p class="main-text">{{ course_name }}</p>
+                        <a class="btn" href="/">Neuen Studiengang generieren</a>
+        </div>
+        
 {% endblock %}}

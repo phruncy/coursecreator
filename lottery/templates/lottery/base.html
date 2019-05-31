@@ -1,6 +1,20 @@
-<div id="content">
-        {% block content %}
-        {% endblock %}
-</div>
-<footer>
-</footer>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'lottery/style.css' %}">
+
+<body class="frame">
+        <header>
+                <div class="menu-elt"></div>
+                <div class="menu-elt"></div>
+        </header>
+        <div class="wrapper">
+                <div class="content">
+                                {% block content %}
+                                {% endblock %}
+                </div>  
+        </div>  
+        <div class="content social-media">
+                <p></p>
+        </div>
+        <footer class ="fixed">
+        </footer>
+</body>

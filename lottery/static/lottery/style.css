@@ -1,0 +1,61 @@
+
+.frame{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        background:linear-gradient(to bottom right,rgb(82, 226, 202), rgb(51, 107, 190)); ;
+}
+
+.menu-elt {
+        display: inline;
+        text-align: right;
+        color: white;
+}
+
+.content {
+        text-align: center;
+        color: white;
+}
+
+.wrapper {
+        display: block;
+        margin-top: 20%;
+}
+
+.btn {
+        display: block;
+        padding: 10px;
+        margin: 20px;
+        margin-left: 35%;
+        margin-right: 35%;
+        font-family: sans-serif;
+        background: rgb(219, 93, 20);
+        color: white;
+        text-decoration: none;
+}
+
+.btn:hover{
+        background: rgb(82, 226, 202);
+}
+
+.main-text {
+        font-size: 40px;
+}
+
+.social-media {
+        text-align: center;
+        display: inline-flex;
+        margin-top: 30px;
+}
+
+.prominent {
+        font-size: 50px;
+}
+
+header {
+        margin-right: 50px;
+        display: block
+        margin-top: 
+
+}
+
